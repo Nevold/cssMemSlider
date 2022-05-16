@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <input class="input" type="radio" name="name" id="slide1" checked />
+        <input class="input" type="radio" name="name" id="slide2" />
+        <input class="input" type="radio" name="name" id="slide3" />
+        <input class="input" type="radio" name="name" id="slide4" />
+        <div class="slider">
+          <div class="slides slide1">
+            <img class="responsive" src="./assets/1.jpg" alt="car1" />
+          </div>
+          <div class="slides slide2">
+            <img class="responsive" src="./assets/2.jpg" alt="car2" />
+          </div>
+          <div class="slides slide3">
+            <img class="responsive" src="./assets/3.jpg" alt="car3" />
+          </div>
+          <div class="slides slide4">
+            <img class="responsive" src="./assets/4.jpg" alt="car4" />
+          </div>
+        </div>
+        <div class="container-footer">
+          <div class="controls">
+            <label for="slide1"><span class="label-circle"></span></label>
+            <label for="slide2"><span class="label-circle"></span></label>
+            <label for="slide3"><span class="label-circle"></span></label>
+            <label for="slide4"><span class="label-circle"></span></label>
+          </div>
+          <div class="slider slider-container-text">
+            <div class="slides slide1 slide-default-style"><span>Every moment is a fresh beginning</span></div>
+            <div class="slides slide2 slide-default-style"><span>Everything you can imagine is real</span></div>
+            <div class="slides slide3 slide-default-style"><span>Whatever you do, do it well</span></div>
+            <div class="slides slide4 slide-default-style"><span>What we think, we become</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
