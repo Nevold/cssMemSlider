@@ -151,3 +151,46 @@ body {
   flex-direction: row-reverse;
   margin-top: 2%;
 }
+
+@media (max-width: 54rem) {
+  .wrapper {
+    height: 53vw;
+    width: 80vw;
+  }
+  .container {
+    height: 35vw;
+    width: 70vw;
+  }
+
+  .container-footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+    flex-wrap: wrap;
+  }
+  .slider-container-text {
+    width: 100%;
+    flex-shrink: 0;
+    margin-top: 2%;
+  }
+
+  .label-circle {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  .slider-container-text {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .wrapper {
+    height: 59vw;
+  }
+}
